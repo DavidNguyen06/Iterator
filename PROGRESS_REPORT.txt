@@ -1,13 +1,14 @@
 What Part of the project are you currently working on?
+- part 1
 
 
 
 What can you do to be successful at this project?
-
+- study more about the iterator and query processor concept
 
 
 
 What can we do to help you be successful at this project?
-
+- more TA office hours added
 
 
