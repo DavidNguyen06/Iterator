@@ -12,33 +12,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/iterators/AddXTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iterators/AddX.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-              <folding>
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/iterators/Limit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-3">
@@ -47,6 +20,31 @@
                 <element signature="e#394#395#0" expanded="true" />
                 <element signature="e#438#439#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/iterators/IntTransform.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/iterators/IntTransformTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -62,6 +60,7 @@
         <option value="$PROJECT_DIR$/PROGRESS_REPORT.txt" />
         <option value="$PROJECT_DIR$/src/iterators/Limit.java" />
         <option value="$PROJECT_DIR$/src/iterators/AddX.java" />
+        <option value="$PROJECT_DIR$/src/iterators/IntTransform.java" />
       </list>
     </option>
   </component>
@@ -131,7 +130,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554248956338" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554249944172" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -150,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.IntTransformTest">
     <configuration name="AddXTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hw5-phucnguyen" />
       <extension name="coverage">
@@ -166,8 +165,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntTransformTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw5-phucnguyen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iterators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iterators" />
+      <option name="MAIN_CLASS_NAME" value="iterators.IntTransformTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntTransformTest" />
         <item itemvalue="JUnit.AddXTest" />
       </list>
     </recent_temporary>
@@ -184,41 +199,44 @@
       <updated>1553638876386</updated>
       <workItem from="1553638883912" duration="190000" />
       <workItem from="1553639088823" duration="423000" />
-      <workItem from="1554246041372" duration="2770000" />
+      <workItem from="1554246041372" duration="3615000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddXTest - 2019.03.26 at 17h 29m 05s.xml">
+    <history-entry file="AddXTest - 2019.04.02 at 18h 53m 38s.xml">
       <configuration name="AddXTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddXTest - 2019.04.02 at 18h 11m 30s.xml">
-      <configuration name="AddXTest" configurationId="JUnit" />
+    <history-entry file="IntTransformTest - 2019.04.02 at 18h 53m 45s.xml">
+      <configuration name="IntTransformTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddXTest - 2019.04.02 at 18h 17m 56s.xml">
-      <configuration name="AddXTest" configurationId="JUnit" />
+    <history-entry file="IntTransformTest - 2019.04.02 at 18h 56m 39s.xml">
+      <configuration name="IntTransformTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddXTest - 2019.04.02 at 18h 34m 37s.xml">
-      <configuration name="AddXTest" configurationId="JUnit" />
+    <history-entry file="IntTransformTest - 2019.04.02 at 18h 57m 05s.xml">
+      <configuration name="IntTransformTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddXTest - 2019.04.02 at 18h 43m 38s.xml">
-      <configuration name="AddXTest" configurationId="JUnit" />
+    <history-entry file="IntTransformTest - 2019.04.02 at 18h 57m 22s.xml">
+      <configuration name="IntTransformTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddXTest - 2019.04.02 at 18h 44m 01s.xml">
-      <configuration name="AddXTest" configurationId="JUnit" />
+    <history-entry file="IntTransformTest - 2019.04.02 at 18h 58m 13s.xml">
+      <configuration name="IntTransformTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddXTest - 2019.04.02 at 18h 45m 49s.xml">
-      <configuration name="AddXTest" configurationId="JUnit" />
+    <history-entry file="IntTransformTest - 2019.04.02 at 18h 59m 05s.xml">
+      <configuration name="IntTransformTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddXTest - 2019.04.02 at 18h 48m 15s.xml">
-      <configuration name="AddXTest" configurationId="JUnit" />
+    <history-entry file="IntTransformTest - 2019.04.02 at 19h 02m 41s.xml">
+      <configuration name="IntTransformTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddXTest - 2019.04.02 at 18h 48m 43s.xml">
-      <configuration name="AddXTest" configurationId="JUnit" />
+    <history-entry file="IntTransformTest - 2019.04.02 at 19h 04m 36s.xml">
+      <configuration name="IntTransformTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntTransformTest - 2019.04.02 at 19h 05m 28s.xml">
+      <configuration name="IntTransformTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3383000" />
+    <option name="totallyTimeSpent" value="4228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="0" />
@@ -266,13 +284,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterators/Limit.java">
+    <entry file="file://$PROJECT_DIR$/src/iterators/AddX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="287">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -287,15 +307,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterators/AddX.java">
+    <entry file="file://$PROJECT_DIR$/src/iterators/Limit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="-3">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/iterators/IntTransformTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators/IntTransform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
           </folding>
         </state>
       </provider>
