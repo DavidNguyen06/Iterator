@@ -17,7 +17,7 @@ public class TextQuery1b {
 		while (words.hasNext()) {
 			System.out.println(words.next());
 		}
-	}	
+	}
 
 	// The only change you should make to this file:
 	//   define The2ndAnd6thWords class here
