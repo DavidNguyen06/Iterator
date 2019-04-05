@@ -31,12 +31,11 @@ public class TransformToMany<InT,OutT> implements Iterator<OutT> {
 
 		@Override
 		public OutT next() {
-//			return this.t.next();
 			return t2.next();
 
 		}
 
-
+        // feel free to create private methods if helpful
 		public Iterator<OutT> listFunction(){
 			List<OutT> finalList = new LinkedList<>();
 			List<OutT> subList;
@@ -48,26 +47,6 @@ public class TransformToMany<InT,OutT> implements Iterator<OutT> {
 			}
 			return finalList.iterator();
 		}
-		/* method here
-			finalList;
-			//iterate through the final list
-			sublist=f.apply(finalList(
-			//iterate through sublist
-			finalList(add all elements in sublist)
-			//return finallist
-			//return fianlist.iterator()
-			//hasNext()---finalLIst.iterator().hasNext()
-			//next().---> finalList.iterator().next();
-		 */
-
-
-
-
-
-
-
-        // feel free to create private methods if helpful
-
 
 
 }

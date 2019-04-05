@@ -13,7 +13,7 @@ public class SuchThatTest {
 		public SuchThatTest() {
 		}
 
-		/* UNCOMMENT WHEN YOU GET TO THIS PART OF THE HOMEWORK
+
 		@Test
 		public void emptyTest() {
 			Integer[] inputValues = {};
@@ -117,7 +117,7 @@ public class SuchThatTest {
 		assertEquals(false, op.hasNext());
 	}
 
-	UNCOMMENT WHEN YOU GET TO THIS PART OF THE HOMEWORK*/
+
 
 		public static class IsNotZero implements Function<Integer, Boolean> {
                 /* Return true if the input isn't 0 */
