@@ -32,14 +32,12 @@ public class SuchThat<T> implements Iterator<T> {
 
     public Iterator<T> EqualToZero(){
         List<T> finalList2 = new LinkedList<>();
-        //T subList2;
 	    while (this.input.hasNext()){
 	        T num = this.input.next();
 	        if (this.p.apply(num)){
 	            finalList2.add(num);
             }
         }
-	    System.out.println(finalList2);
 	    return finalList2.iterator();
     }
 }

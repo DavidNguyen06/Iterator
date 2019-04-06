@@ -6,6 +6,8 @@ import readers.TextFileReader;
 
 import java.util.Iterator;
 import java.util.function.Function;
+import java.util.Arrays;
+
 
 // return the words beginning with Z or z in every file
 public class TextQuery1c {
@@ -14,7 +16,7 @@ public class TextQuery1c {
 		Iterator<String> contents = new Transform(new Pair.Right(), filenameAndContents);
 
 		// REPLACE NULL WITH COMMENTED CODE
-	    Iterator<String> words = null;//new Transform(new AllZWords(), contents);
+	    Iterator<String> words = new Transform(new AllZWords(), contents);
 
 		while (words.hasNext()) {
 			System.out.println(words.next());
@@ -29,6 +31,23 @@ public class TextQuery1c {
 	// If there are no Z or z words then return the empty String
 	// See TransformTest.java for examples
 	// UNCOMMENT THIS LINE!
-	//private static class AllZWords implements Function<String,String> {}
+	private static class AllZWords implements Function<String,String> {
+		public String apply(String c){
+			String[] sl = c.split(" ");
+			String s = "";
+			for (int i = 0; i < sl.length; i++){
+				if (sl[i].toLowerCase().startsWith("z")){
+					s += sl[i] + " ";
+				}
+			}
+			return s;
+
+
+
+		}
+
+
+
+	}
 
 }

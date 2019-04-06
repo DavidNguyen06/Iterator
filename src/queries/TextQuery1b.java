@@ -4,6 +4,9 @@ package queries;
 import iterators.Transform;
 import java.util.Iterator;
 import readers.TextFileReader;
+import java.util.List;
+import java.util.LinkedList;
+import java.util.function.Function;
 
 // return the 2nd and 21st word in every file
 public class TextQuery1b {
@@ -12,12 +15,13 @@ public class TextQuery1b {
 		Iterator<String> contents = new Transform(new Pair.Right(), filenameAndContents);
 
 		// REPLACE NULL WITH COMMENTED CODE
-	    Iterator<String> words = null; //new Transform(new The2ndAnd21stWords(), contents);
+	    Iterator<String> words = new Transform(new The2ndAnd21stWords(), contents);
 
 		while (words.hasNext()) {
 			System.out.println(words.next());
 		}
 	}
+
 
 	// The only change you should make to this file:
 	//   define The2ndAnd6thWords class here
@@ -27,5 +31,16 @@ public class TextQuery1b {
 	// See TransformTest.java for examples
 	// UNCOMMENT THIS LINE!
 	//private static class The2ndAnd21stWords implements Function<String,String> {}
+
+	private static class The2ndAnd21stWords implements Function<String,String> {
+		public String apply(String content){
+			String[] temp = content.split(" ");
+			return (temp[1] + "|||" + temp[20]);
+			
+
+
+		}
+
+	}
 
 }

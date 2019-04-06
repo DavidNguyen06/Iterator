@@ -16,11 +16,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/iterators/SuchThatTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/queries/TextQuery4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="138">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1098#1099#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/iterators/TransformToManyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -28,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/iterators/TransformToMany.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+            <state relative-caret-position="545">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,17 +51,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iterators/SuchThat.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterators/Reduce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/queries/TextQuery2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
+                <element signature="e#1581#1582#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,10 +90,16 @@
         <option value="$PROJECT_DIR$/src/iterators/AddX.java" />
         <option value="$PROJECT_DIR$/src/iterators/IntTransform.java" />
         <option value="$PROJECT_DIR$/src/iterators/Transform.java" />
-        <option value="$PROJECT_DIR$/src/queries/TextQuery1b.java" />
         <option value="$PROJECT_DIR$/src/iterators/TransformToMany.java" />
         <option value="$PROJECT_DIR$/test/iterators/SuchThatTest.java" />
         <option value="$PROJECT_DIR$/src/iterators/SuchThat.java" />
+        <option value="$PROJECT_DIR$/src/queries/FlightsQuery.java" />
+        <option value="$PROJECT_DIR$/src/queries/TextQuery1b.java" />
+        <option value="$PROJECT_DIR$/src/queries/TextQuery1c.java" />
+        <option value="$PROJECT_DIR$/src/queries/TextQuery3.java" />
+        <option value="$PROJECT_DIR$/src/queries/TextQuery2.java" />
+        <option value="$PROJECT_DIR$/src/iterators/Reduce.java" />
+        <option value="$PROJECT_DIR$/src/queries/TextQuery4.java" />
       </list>
     </option>
   </component>
@@ -91,6 +121,11 @@
             <path>
               <item name="hw5-phucnguyen" type="b2602c69:ProjectViewProjectNode" />
               <item name="hw5-phucnguyen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw5-phucnguyen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw5-phucnguyen" type="462c0819:PsiDirectoryNode" />
+              <item name="expected" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hw5-phucnguyen" type="b2602c69:ProjectViewProjectNode" />
@@ -139,7 +174,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554436422246" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554518582629" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -158,9 +193,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SuchThatTest">
-    <configuration name="TextQuery1a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queries.TextQuery1a" />
+  <component name="RunManager" selected="Application.TextQuery4">
+    <configuration name="TextQuery1b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queries.TextQuery1b" />
       <module name="hw5-phucnguyen" />
       <extension name="coverage">
         <pattern>
@@ -172,73 +207,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntTransformTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextQuery1c" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queries.TextQuery1c" />
       <module name="hw5-phucnguyen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iterators.*" />
+          <option name="PATTERN" value="queries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iterators" />
-      <option name="MAIN_CLASS_NAME" value="iterators.IntTransformTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuchThatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextQuery2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queries.TextQuery2" />
       <module name="hw5-phucnguyen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iterators.*" />
+          <option name="PATTERN" value="queries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iterators" />
-      <option name="MAIN_CLASS_NAME" value="iterators.SuchThatTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransformTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextQuery3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queries.TextQuery3" />
       <module name="hw5-phucnguyen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iterators.*" />
+          <option name="PATTERN" value="queries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iterators" />
-      <option name="MAIN_CLASS_NAME" value="iterators.TransformTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransformToManyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextQuery4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queries.TextQuery4" />
       <module name="hw5-phucnguyen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iterators.*" />
+          <option name="PATTERN" value="queries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iterators" />
-      <option name="MAIN_CLASS_NAME" value="iterators.TransformToManyTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SuchThatTest" />
-        <item itemvalue="JUnit.TransformToManyTest" />
-        <item itemvalue="Application.TextQuery1a" />
-        <item itemvalue="JUnit.TransformTest" />
-        <item itemvalue="JUnit.IntTransformTest" />
+        <item itemvalue="Application.TextQuery4" />
+        <item itemvalue="Application.TextQuery2" />
+        <item itemvalue="Application.TextQuery3" />
+        <item itemvalue="Application.TextQuery1c" />
+        <item itemvalue="Application.TextQuery1b" />
       </list>
     </recent_temporary>
   </component>
@@ -254,44 +281,44 @@
       <updated>1553638876386</updated>
       <workItem from="1553638883912" duration="190000" />
       <workItem from="1553639088823" duration="423000" />
-      <workItem from="1554246041372" duration="19048000" />
+      <workItem from="1554246041372" duration="38626000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TransformToManyTest - 2019.04.04 at 14h 57m 07s.xml">
-      <configuration name="TransformToManyTest" configurationId="JUnit" />
+    <history-entry file="ReduceTest - 2019.04.05 at 13h 16m 48s.xml">
+      <configuration name="ReduceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransformToManyTest - 2019.04.04 at 14h 58m 26s.xml">
-      <configuration name="TransformToManyTest" configurationId="JUnit" />
+    <history-entry file="ReduceTest - 2019.04.05 at 14h 21m 13s.xml">
+      <configuration name="ReduceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransformToManyTest - 2019.04.04 at 15h 00m 16s.xml">
-      <configuration name="TransformToManyTest" configurationId="JUnit" />
+    <history-entry file="ReduceTest - 2019.04.05 at 14h 24m 52s.xml">
+      <configuration name="ReduceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransformToManyTest - 2019.04.04 at 22h 37m 12s.xml">
-      <configuration name="TransformToManyTest" configurationId="JUnit" />
+    <history-entry file="ReduceTest - 2019.04.05 at 14h 25m 12s.xml">
+      <configuration name="ReduceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuchThatTest - 2019.04.04 at 22h 37m 20s.xml">
-      <configuration name="SuchThatTest" configurationId="JUnit" />
+    <history-entry file="ReduceTest - 2019.04.05 at 14h 31m 02s.xml">
+      <configuration name="ReduceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuchThatTest - 2019.04.04 at 22h 42m 28s.xml">
-      <configuration name="SuchThatTest" configurationId="JUnit" />
+    <history-entry file="ReduceTest - 2019.04.05 at 14h 31m 10s.xml">
+      <configuration name="ReduceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuchThatTest - 2019.04.04 at 22h 43m 17s.xml">
-      <configuration name="SuchThatTest" configurationId="JUnit" />
+    <history-entry file="ReduceTest - 2019.04.05 at 14h 31m 47s.xml">
+      <configuration name="ReduceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuchThatTest - 2019.04.04 at 22h 44m 21s.xml">
-      <configuration name="SuchThatTest" configurationId="JUnit" />
+    <history-entry file="TransformTest - 2019.04.05 at 14h 46m 47s.xml">
+      <configuration name="TransformTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuchThatTest - 2019.04.04 at 22h 49m 40s.xml">
-      <configuration name="SuchThatTest" configurationId="JUnit" />
+    <history-entry file="LimitTest - 2019.04.05 at 14h 47m 43s.xml">
+      <configuration name="LimitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuchThatTest - 2019.04.04 at 22h 52m 00s.xml">
-      <configuration name="SuchThatTest" configurationId="JUnit" />
+    <history-entry file="LimitTest - 2019.04.05 at 15h 12m 10s.xml">
+      <configuration name="LimitTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19661000" />
+    <option name="totallyTimeSpent" value="39239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -306,8 +333,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29589373" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22463769" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -384,17 +411,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/iterators/TransformTest.java">
+    <entry file="file://$PROJECT_DIR$/test/iterators/SuchThatTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="178">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/queries/TextQuery1b.java">
+    <entry file="file://$PROJECT_DIR$/src/queries/FlightsQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state relative-caret-position="201">
+          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/iterators/LimitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators/Limit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queries/TextQuery1a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -403,80 +455,167 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iterators/Transform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
             <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/queries/TextQuery1a.java">
+    <entry file="file://$PROJECT_DIR$/test/iterators/ReduceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/queries/TextQuery2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterators/Limit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/iterators/TransformToManyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterators/TransformToMany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/iterators/SuchThatTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="-179">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iterators/SuchThat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="370">
+          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expected/TextQuery1b.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sci.space/59497">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sci.space/59846">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2613" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sci.space/59848">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sci.space/59849">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expected/TextQuery1c.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queries/TextQuery1c.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queries/TextQuery1b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expected/TextQuery2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queries/TextQuery3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expected/TextQuery3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queries/TextQuery2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1581#1582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/iterators/TransformTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="135" column="35" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/iterators/TransformToManyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators/TransformToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators/Reduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expected/TextQuery4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queries/TextQuery4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
           </folding>
         </state>
       </provider>

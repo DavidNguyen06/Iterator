@@ -18,7 +18,7 @@ public class FlightsQuery {
 
 
 			// add more iterators to complete the query
-			Iterator<Object> lastIterator=null;
+			Iterator<Object> lastIterator= null;//ConvertToRecord(recordsGeneric,records);
 
 			while (lastIterator.hasNext()) {
 				System.out.println(lastIterator.next());

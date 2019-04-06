@@ -5,6 +5,7 @@ import iterators.Transform;
 import iterators.TransformToMany;
 import java.util.Arrays;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.function.Function;
 
@@ -18,7 +19,7 @@ public class TextQuery2 {
 		Iterator<String> words = new TransformToMany(new SplitBy("[ .!,:<>@=*_()/\\t~#\"|-]"), contents);
 
 		// REPLACE NULL WITH COMMENTED CODE
-		Iterator<String> longWords=null;// new TransformToMany(new LongerThan(24), words);
+		Iterator<String> longWords=new TransformToMany(new LongerThan(24), words);
 		while (longWords.hasNext()) {
 			System.out.println(longWords.next());
 		}
@@ -37,6 +38,18 @@ public class TextQuery2 {
 	//        apply("I love CS2230") returns "I love CS2230"
 
 	// UNCOMMENT THIS LINE BEFORE STARTING
-	//public static class LongerThan implements Function<String,List<String>> {}
+	public static class LongerThan implements Function<String,List<String>> {
+		private final int l;
+		public LongerThan(int l){
+			this.l = l;
+		}
+		public List<String> apply(String w) {
+			List<String> strList = new LinkedList<>();
+			if (w.length() > l){
+				strList.add(w);
+			}
+			return strList;
+		}
+	}
 
 }
