@@ -26,6 +26,20 @@ public class FlightsQuery {
 		}
 
         // define classes you will need for the query here
+
+//		public static class filterYear implements FoldFunction<FlightRecord, Integer> {
+//			public Integer combine(Integer soFar,FlightRecord input){
+//				if(input.year == 2015)
+//				{
+//					soFar++;
+//				}
+//				return soFar;
+//			}
+//			public Integer initialValue()
+//			{
+//				return 0;
+//			}
+//		}
         
         // object for storing one line in the flights data
 		private static class FlightRecord {
